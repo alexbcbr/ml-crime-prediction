@@ -1,0 +1,39 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+            "stroke": "#f03",
+            "stroke-width": 2,
+            "stroke-opacity": 1,
+            "fill": "#f03",
+            "fill-opacity": 0.2,
+            "name": "Centretown"
+          },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -74.112391,
+                4.571248
+              ],
+              [
+                -74.111994,
+                4.571665
+              ],
+              [
+                -74.110923,
+                4.571654
+
+              [
+                ,-74.110933
+                4.570082
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
