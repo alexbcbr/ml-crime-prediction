@@ -39,15 +39,10 @@ class Neptune:
                     raise exc_info[0].with_traceback(exc_info[1], exc_info[2])
     
     def graphTraversal(self, neptune_endpoint=None, neptune_port=None, show_endpoint=True, connection=None):
-        print("inicio")
         if connection is None:
-            print("antes do remote")
             connection = self.remoteConnection(neptune_endpoint, neptune_port, show_endpoint)
-            print("depois do remote")
 
-        print("antes do graph")
         graph = Graph()
-        print("depois do graph")
         return graph.traversal().withRemote(connection)
     
     def clear(self, neptune_endpoint=None, neptune_port=None, batch_size=200, edge_batch_size=None, vertex_batch_size=None):
